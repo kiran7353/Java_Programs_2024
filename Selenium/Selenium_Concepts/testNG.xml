@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Loan department" parallel="tests">
+    <test name="Personal loan">
+        <classes>
+            <class name="TestNG.TestNG_Basics">
+            <methods>
+                <include name="secondTest"/>
+            </methods>
+            </class>
+            <class name="TestNG.TestNG_Basics2"/>
+            <class name="TestNG.TestNG_Basics4"/>
+        </classes>
+    </test>
+    <test name="CarLoan">
+        <classes>
+            <class name="TestNG.TestNG_Basics3">
+            <methods>
+                <exclude name="mobileAPI.*"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Loan department" parallel="tests">
+    <test name="Personal loan">
+        <packages>
+            <package name="TestNG"/>
+        </packages>
+    </test>
+</suite>
