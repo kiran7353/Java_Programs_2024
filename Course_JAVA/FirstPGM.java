@@ -1,28 +1,20 @@
 package Course_JAVA;
 
 import java.util.*;
-import static java.util.Arrays.*;
-
 public class FirstPGM{
     public static void main(String[] args) {
         int[] num = {1,2,2,3,4,3,5,6,6,9};
-
-        Scanner s=new Scanner(System.in);
-        System.out.println("Enter the number to search: ");
-        int n=s.nextInt();
-        List<Integer> l=new ArrayList<>();
+        Map<Integer,Integer> map=new LinkedHashMap<>();
         for(int i=0;i<num.length;i++){
-            if(num[i]==n){
-                l.add(i);
+            if(!map.containsKey(num[i])){
+                map.put(num[i],1);
+            }else{
+                map.put(num[i],map.getOrDefault(num[i],0)+1);
             }
         }
 
-        if(l.size()==0){
-            System.out.println("Number not found");
+        for(Map.Entry<Integer,Integer> data:map.entrySet()){
+            System.out.println(data.getKey()+" is "+data.getValue()+" times");
         }
-        else{
-            System.out.println("Number found at index: "+l);
-        }
-
     }
 }
