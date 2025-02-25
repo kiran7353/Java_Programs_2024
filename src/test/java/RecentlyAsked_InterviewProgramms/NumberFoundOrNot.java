@@ -1,9 +1,7 @@
-package Course_JAVA;
+package RecentlyAsked_InterviewProgramms;
 
 import java.util.*;
-import static java.util.Arrays.*;
-
-public class FirstPGM{
+public class NumberFoundOrNot{
     public static void main(String[] args) {
         int[] num = {1,2,2,3,4,3,5,6,6,9};
 
