@@ -18,9 +18,7 @@ class EachWordCount {
             i++;
         }
 
-        Set<Map.Entry<String,Integer>> set=m.entrySet();
-        
-        for(Map.Entry<String,Integer> data:set){
+        for(Map.Entry<String,Integer> data:m.entrySet()){
             System.out.println(data.getKey()+" -> "+data.getValue());
         }
         
