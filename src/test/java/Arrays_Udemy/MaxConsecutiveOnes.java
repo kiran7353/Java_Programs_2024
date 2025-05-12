@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public class MaxConsecutiveOnes {
     public static void main(String[] args) {
-        int[] a = new int[]{1,0,1,1,0,1,0};
+        int[] a = new int[]{1,0,0,0,0,1,1,0,1,1,1,0};
         int ans=0, count=0;
 
         for(int i=0;i<a.length-1;i++){

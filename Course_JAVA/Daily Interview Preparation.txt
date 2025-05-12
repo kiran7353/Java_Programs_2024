@@ -1,0 +1,31 @@
+April 16, 2025 - tasks to complete
+1. Web Table Automation from Rahul Shetty - completed
+2. Theory Understanding of Master slave Jenkins concept - completed
+3. Explain Framework Structure - completed
+4. what are the challenges you have faced in your framework UI and API - completed			
+5. Can you locate elements using two locators at a time: //div[@id='example' and @class='container'] - completed
+6. Can you explain system.out.println(); - completed				
+7. If you issue maven command what it will do will it run POM or test case. - completed
+
+April 17, 2025 - tasks to complete
+1. Selenium and Java Rahul Shetty questions - 
+2. All Programs revision
+3. SQL, Comparable, Comparator and Framework Interview Questions
+
+
+April 18, 2025 - tasks to complete
+1. Write a program for dead lock - completed
+2. Write a program to find the length of the string without using string.length(); - completed
+3. Write a Program to cover all major concepts of OOPs - completed
+6. Write a program to sort ArrayList using Comparable and Comparator - completed
+
+April 22, 2025 - tasks to complete
+1. How to handle window dialog such as File Open Dialog in Windows using Selenium?
+2. What is SauceLabs or BrowserStack, How it helps with Selenium Tets?
+3. Selenium 4 features Rahul Shetty
+4. git commands
+5. Write a program to perform Pairwise swap elements of a given linked list - 
+6. Write a Java program to insert the specified element at the end of a linked list - 
+7. Singleton Classes - pass by value, pass by reference
+8. Serialization Deserialisation Program in java
+
