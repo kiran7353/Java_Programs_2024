@@ -1,5 +1,8 @@
 package LinkedList_Udemy;
 
+import java.util.Iterator;
+import java.util.LinkedList;
+
 public class CreationOfLinkedList {
     public static void main(String[] args){
         Node ten=new Node(10);
@@ -25,6 +28,38 @@ public class CreationOfLinkedList {
         printLinkedList(head);
         head = deleteAtFront(head);
         printLinkedList(head);
+
+        LinkedList<Integer> list = new LinkedList<>();
+        list.add(1);
+        list.add(2);
+        list.add(2);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(0,42);
+
+        Iterator<Integer> it = list.iterator();
+        while(it.hasNext()){
+            System.out.println(it.next());
+        }
+
+        System.out.println(list.contains(4));
+
+//        Iterator<Integer> di = list.descendingIterator();
+//        while(di.hasNext()){
+//            System.out.println(di.next());
+//        }
+
+        list.remove();
+        System.out.println("After removing the first element");
+        System.out.println(list);
+        list.removeFirstOccurrence(2);
+        System.out.println("After removing the first element");
+        System.out.println(list);
+        list.removeLastOccurrence(2);
+        System.out.println("After removing the first element");
+        System.out.println(list);
+
     }
 
     public static void printLinkedList(Node head){
@@ -53,5 +88,6 @@ public class CreationOfLinkedList {
         }
         return head;
     }
+
 
 }
