@@ -8,7 +8,7 @@ public class NumericToChars {
                 System.out.print(s.charAt(i));
             } else {
                 int n = Character.getNumericValue(s.charAt(i));
-                for (int j = 1; j < n; j++) {
+                for (int j = 1; j <= n; j++) {
                     System.out.print(s.charAt(i - 1));
                 }
             }

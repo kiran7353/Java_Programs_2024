@@ -7,7 +7,7 @@ public class LongestCommonPrefix {
 If there is no common prefix, return an empty string "".
      */
     public static void main(String[] args) {
-        String[] strs = {"dog", "racecar", "car"};
+        String[] strs = {"Kiran", "Ki", "Kira"};
         if (strs.length == 0) {
             System.out.println("Longest common prefix is : " + "\"\"");
         } else {
